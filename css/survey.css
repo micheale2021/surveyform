@@ -1,0 +1,62 @@
+body {
+    background-color: #857036;
+  }
+  input {
+    background-color: #ebdebc;
+  }
+  input:hover {
+    background-color: #78945f;
+  }
+  #description {
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+  #title {
+    font-family: Cursive;
+    font-size: 45px;
+    letter-spacing: 2px;
+  }
+  #description,
+  #title {
+    text-align: center;
+  }
+  #survey-form {
+    background-color: #d4b970;
+    padding: 10px;
+    margin: 0 50px 0 50px;
+    border: 6px ridge #ccc;
+  }
+  #name {
+    width: 35%;
+  }
+  #last-name {
+    width: 50%;
+  }
+  #email {
+    width: 65%;
+  }
+  #dropdown {
+    width: 50%;
+  }
+  #suggestions {
+    background-color: #dbc0a0;
+  }
+  #submit {
+    background-color: #2e2e2d;
+    color: #ccbead;
+  }
+  #submit:hover {
+    background-color: #08593b;
+  }
+  
+  @media screen and (min-width: 700px) {
+    #description {
+      font-size: 1.5em;
+    }
+    #title {
+      font-family: Arial black;
+      font-size: 60px;
+      letter-spacing: 8px;
+    }
+  }
+  

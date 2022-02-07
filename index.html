@@ -1,0 +1,92 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/survey.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="bg-image">
+    <h1 id="title">SURVEY FORM</h1>
+    <hr>
+    <p id="description">Thank you for taking the time to fill in this form.</p>
+    <form id="survey-form">
+      <P>
+        <label for="name" id="name-label">First Name:</label>
+      </p>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      <P>
+        <hr>
+        <label for="last-name" id="last-name-label">Last Name:</label>
+      </p>
+      <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+      <P>
+        <hr>
+        <label for="email" id="email-label">Email:</label>
+      </p>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <hr>
+      <P>
+        <label for="number" id="number-label">Age:</label>
+      </p>
+      <input type="number" id="number" name="number" min="16" max="65" placeholder="age" required>
+      <hr>
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+
+      <hr>
+      <p>
+        <label for="dropdown">How did you hear about our website?</label>
+        <select name="options" id="dropdown">
+          <option value="">--SELECT AN OPTION--</option>
+          <option value="friends">FRIENDS</option>
+          <option value="family">FAMILY</option>
+          <option value="newspaper">NEWSPAPAER</option>
+          <option value="other">OTHER</option>
+        </select>
+      </p>
+      <hr>
+      <label for="doneness">How do you rate your overall experience?</label>
+      <br>
+      <span>1</span>
+      <input type="range" name="rate" id="rate" value="5" min="1" max="10">
+      <span>10</span>
+      <hr>
+      <div>
+        <label>Things you would like us to improve in our website home page:</label>
+      </div>
+      <input type="checkbox" id="advice1" name="advice" value="contacts_information">
+      <label for="advice1">Add Contact Information Prominently</label></br>
+      <input type="checkbox" id="advice2" name="advice" value=" mobile-friendly">
+      <label for="advice2">Make it Mobile Responsive.</label></br>
+      <input type="checkbox" id="advice3" name="advice" value="design">
+      <label for="advice3">Update Your Design to Current Standards</label></br>
+      <input type="checkbox" id="advice4" name="advice" value="design">
+      <label for="advice4">Other...</label>
+      <p>
+        <label for="suggestions">Please write in the box below if you have any other suggestions:</label></br>
+        <textarea id="suggestions" placeholder="Enter your suggestions here ...." rows="6"></textarea>
+      </p>
+      <button id="submit">SUBMIT</button>
+
+    </form>
+  </div>
+</body>
+
+</html>
